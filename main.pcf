@@ -1,0 +1,11 @@
+set_io raw_clk 21
+
+set_io sig[7] 44
+set_io sig[6] 45
+set_io sig[5] 47
+set_io sig[4] 48
+set_io sig[3] 56
+set_io sig[2] 60
+set_io sig[1] 61
+set_io sig[0] 62
+
