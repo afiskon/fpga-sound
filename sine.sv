@@ -9,7 +9,6 @@ module sine_sig(input logic clk, output logic [0:7] sig);
     always_ff @(posedge clk)
     begin
         case (counter)
-
             8'b00000000: sig <= 8'b01111111;
             8'b00000001: sig <= 8'b10000010;
             8'b00000010: sig <= 8'b10000101;
