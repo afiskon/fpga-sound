@@ -50,7 +50,7 @@ module top(
 
     always_ff @(posedge clk_chfreq)
     begin
-        use678hz = !use678hz;
+        use678hz <= !use678hz;
     end
 
     // 12 Mhz => 256*678 Hz
